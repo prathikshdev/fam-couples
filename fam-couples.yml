@@ -1,0 +1,35 @@
+server:
+ port: 9000
+ servlet:
+  context-path: /ari
+spring:
+ datasource:
+  url: jdbc:h2:mem:testdb
+  username: sa
+  password:
+  driver-class-name: org.h2.Driver
+ jpa:
+  datasource-platform: org.hibernate.dialect.H2Dialect
+ h2:
+  console:
+   enabled: true
+management:
+ endpoint:
+  web:
+   base-path: /
+  exposure:
+   include: info,health
+member:
+ age: 23
+ dob: "21-03-1998"
+ fullname: "Prathiksh S"
+---
+spring:
+ config:
+  active:
+   on-profile: test
+member:
+ fullname: "Arjun Dr"
+ age: 23
+ dob: "07-11-1998"
+  
