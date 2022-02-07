@@ -19,6 +19,8 @@ management:
    base-path: /
   exposure:
    include: info,health
+love:
+ message: "Where are you now darling in this world - IM WAITING"
 member:
  age: 23
  dob: "21-03-1998"
