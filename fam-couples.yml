@@ -20,18 +20,18 @@ management:
   exposure:
    include: info,health
 love:
- message: "Where are you now darling in this world - IM WAITING"
+ message: Where are you now darling in this world - IM WAITING
 member:
  age: 23
- dob: "21-03-1998"
- fullname: "Prathiksh S"
+ dob: 21-03-1998
+ fullname: Prathiksh S
 ---
 spring:
  config:
   active:
    on-profile: test
 member:
- fullname: "Arjun Dr"
+ fullname: Arjun Dr
  age: 23
- dob: "07-11-1998"
+ dob: 07-11-1998
   
