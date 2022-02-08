@@ -17,8 +17,8 @@ management:
  endpoint:
   web:
    base-path: /
-  exposure:
-   include: info,health
+  exposure: 
+   include: "*"
 love:
  message: Where are you darling! i'm wating for you! Come into my life.
 member:
