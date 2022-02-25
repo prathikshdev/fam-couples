@@ -1,0 +1,16 @@
+server:
+ port: 8082
+ servlet:
+  context-path: /supplier
+spring:
+ datasource:
+  url:
+  username:
+  password:
+  driverClassname:
+ jpa:
+  datasource-platform:
+ h2:
+  console:
+   enabled: true
+   
